@@ -11,3 +11,10 @@ export const List = styled.ul`
   border-radius: ${props => props.theme.borderRadius};
   box-shadow: ${props => props.theme.boxShadow.In};
 `;
+
+export const Notice = styled.p`
+  display: inline-block;
+  padding: 4px 16px;
+  border-radius: ${props => props.theme.borderRadius};
+  box-shadow: ${props => props.theme.boxShadow.Out};
+`;
