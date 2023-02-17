@@ -1,7 +1,6 @@
 import { useSelector } from 'react-redux';
 import { getContacts, getFilter } from 'redux/selectors';
 import { ContactListItem } from 'components/ContactListItem/ContactListItem';
-// import PropTypes from 'prop-types';
 import { List, Notice } from './ContactList.styled';
 
 const getVisibleContacts = (contacts, filter) => {
@@ -28,13 +27,3 @@ export const ContactList = () => {
     </List>
   );
 };
-
-// ContactList.propTypes = {
-//   contacts: PropTypes.arrayOf(
-//     PropTypes.shape({
-//       id: PropTypes.string.isRequired,
-//       name: PropTypes.string.isRequired,
-//       number: PropTypes.string.isRequired,
-//     })
-//   ),
-// };
